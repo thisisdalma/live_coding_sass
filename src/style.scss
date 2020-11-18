@@ -1,0 +1,21 @@
+@use 'color';
+@use 'layout';
+
+body {
+    background-color: color.$primary-color;
+}
+
+.header-container {
+    background-color: color.$secondary-color;
+    z-index: layout.$nav-bar-layer;
+}
+
+.content-container {
+    background-color: color.$standard-color;
+    z-index: layout.$app-layer;
+}
+
+.footer-container {
+    background-color: color.$secondary-color;
+    z-index: layout.$footer-layer;
+}
